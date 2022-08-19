@@ -27,9 +27,9 @@ describe('My Stack', () => {
   });
 
   it('can push to the top', () => {
-    stack.push('🥑');
+    stack.push('yash');
     expect(stack.top).toBe(0);
-    expect(stack.peek).toBe('🥑');
+    expect(stack.peek).toBe('yash');
 
     stack.push('🌽');
     expect(stack.top).toBe(1);
